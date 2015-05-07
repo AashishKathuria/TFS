@@ -1,0 +1,30 @@
+	<html>
+<head>
+<style>
+.DISPLAYNONE{
+display:none;
+}
+</style>
+<script type="text/javascript">
+<!--
+function popup() {
+	$('#some').toggleClass('DISPLAYNONE');
+}
+function popout() {
+$('#some').toggleClass('DISPLAYNONE');
+}
+//-->
+</script>
+</head>
+<body>
+
+
+<a href="#" onmouseover="popup()" onMouseout="popout()">
+<img style="position:relative" src="http://www.psit.ac.in/final/psit/aeict-2015/images/button.gif" usemap="#map1"/></a>
+<map name="map1">
+<area shape="rect" coords="648,389,917,400" onclick="_gaq.push([‘TrackEvent’, ’chambresd’hôtel’, ‘Enter’, ’Enter’]);" href="#" onmouseover="popup()" onMouseout="popout()" /></map>
+
+<img id="some" style= "z-index: 9999; position: relative; left: -161px; top: 1px;" class="DISPLAYNONE" src="http://www.jongerius-int.com/image/Button-Blue775_Copy2768.gif"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+</html>
